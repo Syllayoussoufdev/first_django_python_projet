@@ -5,4 +5,4 @@ from .models import Employe
 
 def list_emloyes(request):
     employes = Employe.objects.all()
-    return render(request, 'employe/list_employes.html', {'employes': employes})
+    return render(request, 'employe/list.html', {'employes': employes})
