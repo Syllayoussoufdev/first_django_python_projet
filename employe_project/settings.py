@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'employe_app', # Ajout de l'app employe_app 
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    } # Utilisation de SQLite pour la base de données
 }
 
 
